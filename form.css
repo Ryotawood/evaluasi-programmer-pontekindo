@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(home.jpg);
+    background-size: 100%;
+    background-position: 0;
+}
+main {
+        background-size: 100%;
+    background-position: 0;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 64, 211);
+}
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px;
+}
+.login  {
+    padding: 50px;
+    padding-bottom: 50px;
+    background-color: transparent;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 100px;
+    float: right;
+    color: white;
+
+}
+.login button {
+    color: white;
+    background: green;
+    border: transparent;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login a {
+    font-size: 15px;
+    margin-top: 30px;
+}
+.user, .pass, .pass1 {
+    width: 300px;
+    display: flex;
+    text-align: left;
+    padding: 5px;
+}
+.pass {
+    margin-top: 20px;
+}
+.email {
+    text-align: left;
+}
+.register, h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.register  {
+    padding: 50px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 100px;
+    float: right;
+    color: white;
+
+}
+.register button {
+    color: white;
+    background: green;
+    border: transparent;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.register a {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.register .user, .pass, .pass1 {
+    width: 300px;
+    display: flex;
+    text-align: left;
+    padding: 5px;
+}
+.register .pass {
+    margin-top: 0;
+}
+.register .email {
+    text-align: left;
+}
